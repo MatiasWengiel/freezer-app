@@ -1,1 +1,4 @@
+# Run tests 
 npm test
+
+npx lint-staged
