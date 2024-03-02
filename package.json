@@ -11,6 +11,7 @@
     "test": "vitest --run",
     "prepare": "husky",
     "format": "prettier --write",
+    "format:check": "prettier --check \"**/*.{ts, tsx, js, jsx, json, yaml, yml, md}\"",
     "typecheck": "tsc -p ./tsconfig.json"
   },
   "dependencies": {
