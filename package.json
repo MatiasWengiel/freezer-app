@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest --run",
     "prepare": "husky",
-    "format": "prettier --write"
+    "format": "prettier --write",
+    "typecheck": "tsc -p ./tsconfig.json"
   },
   "dependencies": {
     "react": "^18.2.0",
